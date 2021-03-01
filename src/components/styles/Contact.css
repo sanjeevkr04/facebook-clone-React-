@@ -1,0 +1,22 @@
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 3px 12px;
+    margin: 3px 0px;
+    width: 100%;
+}
+
+.contact > .MuiSvgIcon-root{
+    color: rgb(95, 95, 95);
+}
+
+.contact > a{
+    text-decoration: none;
+    padding-left: 10px;
+    outline: none;
+}
+
+.contact:hover {
+    transform: scale(1.4);
+    transition: transform 80ms ease-in-out;
+}
